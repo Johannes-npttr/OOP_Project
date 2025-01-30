@@ -1,0 +1,15 @@
+Bitte IMMER zu erst changelog lesen und IMMER vorm Abschicken changelog pflegen!!!!!! 
+
+----------------------------------------------------------------------------------------
+
+
+    Elias (30.01)
+        Habe die alten Sachen gelöscht und Ordner angelegt.
+        code ist der Ordner in dem ich das Proket aus der Vorlesung gespeichert habe. Das ist hilfreich zum nochmal schnell was nachgucken.
+        compilieren lässt sich Ordner code im OOP_Projekt-Ordner mit der normalen makefile (compile, run, clean) aber immer mit test dahinter
+        also make compiletest oder make runtest. 
+        @Marcel Bei Windows ist make = mingw32.make
+
+        Im Ordner app können wir unser Projekt schreiben. 
+        compilier und so geht über die normalen make befehle ohne test.
+
