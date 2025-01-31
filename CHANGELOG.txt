@@ -5,7 +5,9 @@ Bitte IMMER zu erst changelog lesen und IMMER vorm Abschicken changelog pflegen!
 
     Elias (31.01)
         Ich hab ein erstes Grundgerüst gebaut, das das Spiel später visualisiert.
-        einfach einmal make compile und run dann seht ihr was ich meine 
+        einfach einmal make compile und run dann seht ihr was ich meine.
+        Hab noch Spielsteine erstellt die werden in einer Matrix gespeichert und von der ausgelsen und geprintet. Das design für die spielsteine ist aber 
+        noch unfertig. Nur quadrat hat einen basic prototyp damit man irgendwas sieht.
 
     Elias (30.01)
         Habe die alten Sachen gelöscht und Ordner angelegt.

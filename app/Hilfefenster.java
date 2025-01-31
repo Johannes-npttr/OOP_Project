@@ -2,7 +2,6 @@ package app;
 
 import java.awt.FlowLayout;
 import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
 import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
@@ -22,11 +21,8 @@ public class Hilfefenster extends JFrame
         JButton ok = new JButton("0k");
         getContentPane().add(ok);
 
-        ok.addActionListener(new ActionListener() {
-            public void actionPerformed(ActionEvent e)
-            {
-                setVisible(false);
-            }
+        ok.addActionListener((ActionEvent e) -> {
+            setVisible(false);
         });
 
 

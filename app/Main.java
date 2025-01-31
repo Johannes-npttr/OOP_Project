@@ -1,12 +1,12 @@
 package app;
 
 import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
 import javax.swing.JMenu;
 import javax.swing.JMenuBar;
 import javax.swing.JMenuItem;
 
-public class Main {
+public class Main 
+{
     public static void main(String[] args) 
     {
 
@@ -28,25 +28,16 @@ public class Main {
         menueDatei.add(menueESC);
         
         //----------Menüfunktionen-----------
-        menueESC.addActionListener(new ActionListener() {
-            public void actionPerformed(ActionEvent e)
-            {
-                System.exit(0);
-            }
+        menueESC.addActionListener((ActionEvent e) -> {
+            System.exit(0);
         });
 
-        menueNewGame.addActionListener(new ActionListener() {
-            public void actionPerformed(ActionEvent e)
-            {
-                //Inhalt fehlt noch
-            }
+        menueNewGame.addActionListener((ActionEvent e) -> {
+            //Inhalt fehlt noch
         });
 
-        menueHilfe.addActionListener(new ActionListener() {
-            public void actionPerformed(ActionEvent e)
-            {
-                Hilfefenster hilfefenster = new Hilfefenster();
-            }
+        menueHilfe.addActionListener((ActionEvent e) -> {
+            Hilfefenster hilfefenster = new Hilfefenster();
         });
 
     }
