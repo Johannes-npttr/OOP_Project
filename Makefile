@@ -1,5 +1,10 @@
 all: compiletest runtest cleantest compile run clean
 
+# JOHANNES WENN DIE MAKEFILE BEI DIR NICHT FUNKTIONIERT WEGEN MAC MACH NICHT DIREKT ALLES KAPUTT UND SPRICH MIT UNS!!!!
+# BEI MIR FUNKTIONIERT SIE WUNDERBAR!!!!!
+
+
+
 compiletest:
 	javac code/*.java
 
