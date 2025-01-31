@@ -3,6 +3,10 @@ Bitte IMMER zu erst changelog lesen und IMMER vorm Abschicken changelog pflegen!
 ----------------------------------------------------------------------------------------
 
 
+    Elias (31.01)
+        Ich hab ein erstes Grundgerüst gebaut, das das Spiel später visualisiert.
+        einfach einmal make compile und run dann seht ihr was ich meine 
+
     Elias (30.01)
         Habe die alten Sachen gelöscht und Ordner angelegt.
         code ist der Ordner in dem ich das Proket aus der Vorlesung gespeichert habe. Das ist hilfreich zum nochmal schnell was nachgucken.
@@ -12,4 +16,7 @@ Bitte IMMER zu erst changelog lesen und IMMER vorm Abschicken changelog pflegen!
 
         Im Ordner app können wir unser Projekt schreiben. 
         compilier und so geht über die normalen make befehle ohne test.
+
+    
+
 
