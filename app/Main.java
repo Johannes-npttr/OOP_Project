@@ -5,13 +5,21 @@ import javax.swing.JMenu;
 import javax.swing.JMenuBar;
 import javax.swing.JMenuItem;
 
+
 public class Main 
 {
-    public static void main(String[] args) 
+       public static void main(String[] args) 
     {
-
+        //----------Fenster-----------------
         Fenster fenster = new Fenster();
 
+
+        //----------Menüband----------------
+        menüband(fenster);
+    }
+
+    private static void menüband(Fenster fenster)
+    {
         //----------Menüband----------------
         JMenuBar menue = new JMenuBar();
         fenster.setJMenuBar(menue);
@@ -33,12 +41,11 @@ public class Main
         });
 
         menueNewGame.addActionListener((ActionEvent e) -> {
-            //Inhalt fehlt noch
+            //Inhalt fehlt noch :(
         });
 
         menueHilfe.addActionListener((ActionEvent e) -> {
-            Hilfefenster hilfefenster = new Hilfefenster();
+            Hilfefenster hilfefenster = new Hilfefenster(); //sieht noch scheiße aus
         });
-
     }
 }

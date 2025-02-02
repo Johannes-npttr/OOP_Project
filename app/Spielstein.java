@@ -11,6 +11,8 @@ public class Spielstein extends JPanel
     private String form;
     private int size;
 
+    //---------Konstruktor------------
+
     Spielstein(Color farbe, String form, int size)
     {
         this.farbe = farbe;
@@ -30,14 +32,8 @@ public class Spielstein extends JPanel
         }
     }    
 
-    public Color getColor()
-    {
-        return this.farbe;
-    }
-    public String getForm()
-    {
-        return  this.form;
-    }
+    //---------PaintMethode-überschreiben--
+    //wird aufgerufen bei repaint wenn das Objekt gepaintet werden soll
 
     public void paintComponent(Graphics g)
     {

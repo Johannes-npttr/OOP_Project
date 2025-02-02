@@ -6,13 +6,14 @@ import javax.swing.JPanel;
 
 public class Infobar extends JPanel 
 {
-    JLabel info1 = new JLabel("Belegte Felder: ");
-    JLabel info2 = new JLabel("Züge: ");
+    private JLabel belegteFelder = new JLabel("Belegte Felder: ");  //hier fehlt noch variable
+    private JLabel züge = new JLabel("Züge: ");                     //hier auch
+    
     public Infobar() 
     {
         setLayout(new BorderLayout()); 
-        this.add(info1, BorderLayout.WEST);
-        this.add(info2, BorderLayout.EAST);
+        this.add(belegteFelder, BorderLayout.WEST);
+        this.add(züge, BorderLayout.EAST);
 
         setVisible(true);
     }

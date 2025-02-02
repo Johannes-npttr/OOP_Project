@@ -11,13 +11,17 @@ public class Hilfefenster extends JFrame
 
     public Hilfefenster()
     {
+        //----------Standardkrams-------
         setTitle("Hilfe");
         setSize(900,150);
         getContentPane().setLayout(new FlowLayout());
 
+        //----------Infotext------------
         JLabel text = new JLabel("Legen Sie die Steine so vom rechten Feld ins Linke Feld, dass keine Form und keine Farbe doppelt in einer Zeile und Spalte vorkommt.");
         getContentPane().add(text);
 
+
+        //----------Button--------------
         JButton ok = new JButton("0k");
         getContentPane().add(ok);
 
@@ -25,7 +29,7 @@ public class Hilfefenster extends JFrame
             setVisible(false);
         });
 
-
+        //----------Schluss--------------
         setVisible(true);
     }
     
